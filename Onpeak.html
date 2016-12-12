@@ -1,0 +1,28 @@
+<html>
+
+<body>
+    hello
+    <script>
+        var arr= [99,3,4,5,68,7,8,64,22,31,2,100];
+           
+        for(i=0; i<arr.length; i++){
+            if(i==0)
+            {
+                if(arr[i]>arr[i+1])
+                 document.write (arr[i] +" ") ;
+            }
+            else if(i==arr.length-1)
+            {
+                if(arr[i]>arr[i-1])
+                 document.write (arr[i] +" ") ;
+            }
+            else{
+                if(arr[i]>arr[i+1] && arr[i]>arr[i-1])
+                    document.write (arr[i] +" ") ;
+            }
+           
+        }
+        </script>
+</body>
+
+</html>

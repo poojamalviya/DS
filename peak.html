@@ -1,0 +1,36 @@
+<html>
+    <body>
+        hello
+        <script>
+
+        var arr = [2,3,5,6,7,8,9,22,56,99];
+
+        x=22;    
+
+      function   peak(arr, s, e, x)
+        {
+        
+             var s = 0;
+            var e =  arr.length ;
+            arr[m] = (s+e)/2;
+
+            while (s<=e){
+                if (arr[m]==x)
+                return m;
+            
+
+            if (arr[m]<x)
+            s = m +1; 
+
+            else 
+            l = m - 1;
+
+            }
+             console.log (peak(arr,s, m-1, x))
+        }
+  
+
+      
+        </script>
+    </body>
+</html>
